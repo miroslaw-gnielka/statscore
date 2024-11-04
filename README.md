@@ -6,18 +6,20 @@ logiki działania. Jakie zmiany prowadzisz, jakich wzorców lub dobrych praktyk 
 Każda poprawa jakości kodu jest lepsza niż jej brak! Pamiętaj jednak, że w momencie oddawania zadania wszystkie testy 
 muszą ponownie przechodzić poprawnie.
 
-Zadanie powinno być uruchamiane w PHP 8.1. Testy jednostkowe zostały napisane z użyciem frameworka phpunit w wersji 9.5 i na takim powinny być odpalane. Opis zadania zawierający wyjaśnienie logiki biznesowej zawartej w klasie 
+Zadanie powinno być uruchamiane w PHP 8.1. Testy jednostkowe zostały napisane z użyciem frameworka phpunit 
+w wersji 9.5 i na takim powinny być odpalane. Opis zadania zawierający wyjaśnienie logiki biznesowej zawartej w klasie 
 GildedRose.php znajduje się poniżej.
 
 Rozwiązanie zadania powinno być na branchu GitHub i zawierać co najmniej trzy commity.
 
 ## Requirements
-- composer
-- php 8.1
-- phpunit 9.5
+- docker
+- docker-compose
 
 ## Instalation
-To install dependencies run ```composer install```. To run test use ```./vendor/bin/phpunit```.
+Just run `make run-all`
+
+Check `Makefile` file to check all commands.
 
 ## Introduction
 
